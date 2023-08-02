@@ -322,18 +322,15 @@ body {
     color: #1A1A1A;
     font-size: 15px;
 }
-
-
-.star {
-    display: flex;
-    width: 10px;
-    color: rgb(243, 181, 25);   
+/*Se arregla tamaño de icono*/
+#productos__uno .pro .star .text-red {
+    width: 20px; 
 }
-/*#productos__uno .pro .des i {
+#productos__uno .pro .des i {
     font-size: 10px;
     color: rgb(243, 181, 25);
 }
-*/
+
 
 #productos__uno .pro .des h4 {
     padding: 8px;
@@ -348,7 +345,7 @@ body {
     line-height: 30px;
     border-radius: 50px;
     font-weight: 400;
-    color: #523d6a;
+    color: #480a8e;
     position: absolute;
     bottom: 20PX;
     right: 30PX;
@@ -545,7 +542,7 @@ body {
     max-width: 800px;
     margin:  auto;
     text-align: center;
-    margin-bottom: ;
+    margin-bottom: 30px;
 }
 
 .testimonial {
@@ -557,8 +554,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     margin-bottom: 40px;
-    margin-left: 40px;
-    padding: 60px;
+    margin-left: 0px;
 } 
   
 .testimonial img {
