@@ -14,3 +14,24 @@ if (close) {
     })
 }
 
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    const testimonials = document.querySelectorAll('.testimonial');
+    
+    for (let i = 0; i < testimonials.length; i++) {
+        testimonials[i].style.display = 'none';
+    }
+    
+    slideIndex++;
+    
+    if (slideIndex > testimonials.length) {
+        slideIndex = 1;
+    }
+    
+    testimonials[slideIndex - 1].style.display = 'block';
+    setTimeout(showSlides, 5000); // Cambiar testimonio cada 5 segundos
+}
+
+

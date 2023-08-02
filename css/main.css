@@ -538,71 +538,51 @@ body {
     border-bottom-left-radius: 0;
 }
 
-/**********Nuevas tarjetas************/
-
-/* .h2-ser {
-    text-align: center;
-    padding-top: 40px;
-    color: #333232;
-}
-.cards-list {
-    z-index: 0;
+/****Slider Testimonios*******/
+.testimonials-slider {
+    overflow: hidden;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.10), -5px -5px 30px 7px rgba(87, 87, 87, 0.22);
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
+    max-width: 800px;
+    margin:  auto;
     text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: -80px;
-    height: 40px;
-  }
-  
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
-    color: white;
-  }
-  
-  .title-black {
-    color: black;
-  } */
+    margin-bottom: ;
+}
 
-  /*Fin nuevas cart*/
+.testimonial {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    text-align: center; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding: 60px;
+} 
+  
+.testimonial img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
 
+.testimonial p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
 
+.testimonial h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+/*Fin testimonios*/
+
+/*Inicio Footer*/
 
 footer {
     display: flex;
