@@ -103,6 +103,21 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/*Linea de aviso*/
+.linea {
+  padding: 1px;
+  padding-bottom: 4px;
+  background-color: rgb(255, 0, 0);
+  z-index: 99;
+  
+}
+.linea p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
 /*Header Start*/
 .logo {
   width: 200px;
@@ -115,8 +130,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #e8ebf6;
-  box-shadow: 0 0 20px #8c8b8b;
+  background: #fff;
+  box-shadow: 0 0 10px #afaeae;
   z-index: 999;
   position: sticky;
   top: 0;
