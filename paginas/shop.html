@@ -15,6 +15,7 @@
 
 </head>
 <body>
+    <!------ INICIO NAVBAR----------------->
     <section id="header">
         <a href="#"><img class="logo" src="" alt="logo"></a>
 
@@ -31,10 +32,10 @@
     </div>
     <div id="celu">
         <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-        <img id="bar" src="./img/menu.svg" alt="">
-        <!--<i id="bar" class="fas fa-bars"></i>-->
+        <img id="bar" src="../img/menu.svg" alt="">
     </div>
     </section>
+    <!------ FIN NAVBAR-------------------->
 
     <section id="pagina-hero">
         <h4 class="hero-web">Oferta todos los días</h4>
@@ -42,16 +43,16 @@
         <button class="modern-button">Compra ahora</button>
     </section>
 
-<!---------Productos en Promución-------->
+    <!-------INICIO PRODUCTOS EN PROMOCIÓN--->
     <section id="productos__uno" class="secction-p1">
         <div class="pro__container">
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='detalle-produc.html';">
                 <img src="../img/img-productos/img-audifo-jbl/img-01.png" alt="">
                 <div class="des">
                     <span>Audifonos</span>
                     <h5>Conexión Bluetooth</h5>
                     <div class="star">
-                        <img class="text-red" src="../img/iconos/star.png" alt="">
+                        <i class="fa-solid fa-star"></i>
                         <img class="text-red" src="../img/iconos/star.png" alt="">
                         <img class="text-red" src="../img/iconos/star.png" alt="">
                         <img class="text-red" src="../img/iconos/star.png" alt="">
@@ -319,9 +320,9 @@
           
         </div>
     </section>
+    <!-------FIN PRODUCTOS EN PROMOCIÓN----->
 
-    <!--Suscripción-->
-
+    <!--------INICIO SUSCRIPCIÓN------------>
     <section id="suscripcion" class="secction-p1" class="secction-m1">
         <div class="suscrip__text">
             <h4>Registrate para saber de nuestras Ofertas</h4>
@@ -332,53 +333,38 @@
             <button class="normal1">Registro</button>
         </div>
     </section>
+    <!--------FIN SUSCRIPCIÓN--------------->
 
-    <!--Nuevas tarjetas-->
-    <!--<section>
-        <h2 class="h2-ser">El Mejor Servicio de la Región</h2>
-        <h4>24 horas de entrega del servicio</h4>
-    <div class="cards-list">
-        
-        <div class="card 1">
-          <div class="card_image"> <img src="./img/img-gif/gif-1.gif" /> </div>
-          <div class="card_title title-white">
-            <p>Card Title</p>
-          </div>
+    <!--------INICIO TESTIMONIO------------->
+    <section class="testimonials-slider">
+        <div class="testimonial">
+            <img src="../img/img-testimonios/img-1.jpg" alt="Persona 1">
+                <p>"¡Incrkjkjkjkeíble servicio! Me ayudaron a resolver mi problema rápidamente."</p>
+                    <h3>Juan Pérez</h3>
         </div>
-        
-          <div class="card 2">
-          <div class="card_image">
-            <img src="./img/img-gif/gif-2.gif" />
-            </div>
-          <div class="card_title title-white">
-            <p>Card Title</p>
-          </div>
+    
+        <div class="testimonial">
+            <img src="../img/img-testimonios/img-2.jpg" alt="Persona 2">
+                <p>"No puedo creer lo fácil que fue. Definitivamente lo recomendaré a otros."</p>
+                    <h3>María González</h3>
         </div>
-        
-        <div class="card 3">
-          <div class="card_image">
-            <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
-          </div>
-          <div class="card_title">
-            <p>Card Title</p>
-          </div>
+    
+        <div class="testimonial">
+            <img src="../img/img-testimonios/img-3.jpg" alt="Persona 3">
+                    <p>"El equipo fue muy profesional y amable. Estoy muy satisfecho con el resultado."</p>
+                        <h3>Carlos Rodríguez</h3>
         </div>
-          
-          <div class="card 4">
-          <div class="card_image">
-            <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
-            </div>
-          <div class="card_title title-black">
-            <p>Card Title</p>
-          </div>
-          </div>
-        </div>
-    </section>   
--->
 
-        <!--Slide Bootstrap-->
-
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="testimonial">
+            <img src="../img/img-testimonios/img-4.jpg" alt="Persona 4">
+                    <p>"El equipo fue muy profesional y amable. Estoy muy satisfecho con el resultado."</p>
+                        <h3>Carlos Rodríguez</h3>
+        </div>
+    </section>
+    <!--------FIN TESTIMONIO---------------->
+    
+    <!-------INICIO SLIDE BOOTSTRAP
+    <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -416,6 +402,10 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
+        -->
+    <!-------FIN SLIDE BOOTSTRAP------------>
+
+    <!------INICIO FOOTER-------------------->
     <footer class="secction-p1">
         <div class="col">
             <img class="logo" src="" alt="logo">
@@ -472,7 +462,8 @@
 
 
     </footer>
-    
+    <!------FIN FOOTER----------------------->
+
     <!--Bootstrap scrip-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!--Iconos-->
