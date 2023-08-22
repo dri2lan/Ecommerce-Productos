@@ -391,8 +391,8 @@ body {
   font-weight: 400;
   color: #1417c3;
   position: absolute;
-  bottom: 20PX;
-  right: 30PX;
+  bottom: 20px;
+  right: 30px;
 }
 
 #banner {
@@ -403,7 +403,7 @@ body {
   text-align: center;
   background-image: url("../img/banner/banner-2.jpg");
   width: 100%;
-  height: 45vh;
+  height: 65vh;
   background-size: contain;
   background-position: center;
 }
@@ -427,7 +427,7 @@ body {
   color: #fff;
 }
 
-/*Banner sección SM*/
+/*Banner sección descuentos*/
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -441,7 +441,7 @@ body {
   align-items: flex-start;
   background-image: url("../img/img-web-shop/shop-5.jpg");
   width: 580px;
-  height: 50vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -931,6 +931,7 @@ figcaption {
   width: 100%;
   height: 40vh;
   padding-bottom: 70px;
+}
 /******FIN ACERCA DE ******************/
 
 
@@ -939,7 +940,7 @@ figcaption {
 /*Comenzamos con las Media Query****/
 
 @media (max-width: 1400px) {
-  #banner1 {
+  #banner {
     height: 70vh;
   }
   #banner h2 {
@@ -969,7 +970,7 @@ figcaption {
   /*Banner suscripción*/
 }
 
-@media (max-width: 799px) {
+@media (max-width: 768px) {
   
   .secction-p1 {
     padding: 40px 40px;
@@ -1047,7 +1048,7 @@ figcaption {
     color: #222;
     float: right;
     text-align: center;
-    padding: 0 20px 180px 0;
+    /*padding: 0 20px 180px 0;*/
   }
   #banner h2 span {
     line-height: 10px;
@@ -1220,5 +1221,5 @@ figcaption {
 
 }
 
-}
+
 
