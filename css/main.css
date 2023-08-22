@@ -231,7 +231,7 @@ body {
   width: 100%;
   padding: 0 1;
 }
-14/********FIN REDES SOCIALES FLOTANTE**********/
+/********FIN REDES SOCIALES FLOTANTE**********/
 
 /*******INICIO MAIN POR CATEGORIAS*********/
 #container {
@@ -922,10 +922,18 @@ figcaption {
   color: #f30e0e;
 }
 
-
-
-
 /*****TERMINO DE BLOG**********/
+
+/*******INICIO ACERCA DE ***************/
+.about {
+  background-image: url("../img/acerca/acerca-de.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  padding-bottom: 70px;
+/******FIN ACERCA DE ******************/
+
+
 
 
 /*Comenzamos con las Media Query*/
@@ -1211,5 +1219,5 @@ figcaption {
 
 }
 
-
+}
 
