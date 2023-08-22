@@ -936,9 +936,10 @@ figcaption {
 
 
 
-/*Comenzamos con las Media Query*/
+/*Comenzamos con las Media Query****/
+
 @media (max-width: 1400px) {
-  #banner {
+  #banner1 {
     height: 70vh;
   }
   #banner h2 {
@@ -968,7 +969,7 @@ figcaption {
   /*Banner suscripción*/
 }
 
-@media (max-width: 768px) {
+@media (max-width: 799px) {
   
   .secction-p1 {
     padding: 40px 40px;
