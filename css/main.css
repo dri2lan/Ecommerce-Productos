@@ -527,17 +527,17 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("../img/bann-susc/banner-sus.png");
+  background-image: url(".");
   background-repeat: no-repeat;
   background-position: 20% 30%;
-  background-color: #333232;
+  background-color: #e7e3e393;
   margin-top: 30px;
 }
 
 #suscripcion h4 {
   font-size: 21px;
   font-weight: 700;
-  color: #fff;
+  color: #545353;
 }
 
 #suscripcion p {
@@ -547,7 +547,7 @@ body {
 }
 
 #suscripcion p span {
-  color: #FFAF24;
+  color: #f11212;
 }
 
 /*Form Registro*/
@@ -569,7 +569,7 @@ body {
 }
 
 #suscripcion button {
-  background-color: #088178;
+  background-color: #7302f5;
   color: #fff;
   width: 200px;
   white-space: nowrap;
@@ -922,19 +922,109 @@ figcaption {
   color: #f30e0e;
 }
 
+
 /*****TERMINO DE BLOG**********/
 
 /*******INICIO ACERCA DE ***************/
 .about {
   background-image: url("../img/acerca/acerca-de.jpg");
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 40vh;
-  padding-bottom: 70px;
 }
+
+.about_head {
+  display: flex;
+  align-items: center;
+}
+
+.about_head img {
+  width: 150%;
+  height: 500px;
+  padding: 60px;
+}
+
+.about_head div {
+  padding-left: 40px;
+}
+
+/*Equipo personas en comprawebchile*/
+.blog_equipo {
+  padding-left: 60px;
+  
+}
+
+.container-blog {
+  display: flex;
+}
+
+.imagen-con-texto {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  
+}
+.blog_equipo img {
+  max-width: 50%;
+  padding: 30px;
+  
+}
+img {
+  border-radius: 40px;
+
+}
+.blog-co {
+  
+  font-size: 16px;
+  color: #256eff;
+}
+.blog-te {
+  font-size: 14px;
+}
+
+/*ESTIMONIOS*/
+.blog_testimonial {
+  padding: 60px;
+}
+
+.container_testimonios {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.text-escuche {
+  padding-bottom: 30px;
+}
+
+.text-testi {
+  display: block;
+}
+.text-testi img {
+  border-radius: 100px;
+  width: 100px;
+}
+
+.autor {
+  margin-left: 10px;
+}
+
 /******FIN ACERCA DE ******************/
+/******INICIO CONTACTO*****************/
+.contacto {
+  background-image: url("../img/img-contacto/img-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
 
 
+
+/******FIN CONTACTO*****************/
 
 
 /*Comenzamos con las Media Query****/
@@ -1177,8 +1267,8 @@ figcaption {
   }
   /*Boton inicio compra*/
   .modern-button {
-   position: relative;
-   top: 150px;
+    position: relative;
+    top: 150px;
   }
 
   /*Detalle productos*/
