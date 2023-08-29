@@ -1180,6 +1180,8 @@ img {
     #sm-banner {
       padding: 10px;
     }
+
+
   }
   /*Banner suscripción*/
 }
@@ -1296,6 +1298,24 @@ img {
   #suscripcion p span {
     font-size: 20px;
     font-weight: 600;
+  }
+
+  /*Acerca de*/
+  .about_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_head img {
+    width: 110%;
+  }
+  .container-blog {
+    display: block;   
+  }
+  /*Contacto*/
+  .contacto-datos {
+    padding: 30px;
   }
 }
 @media (max-width: 576px) {
@@ -1432,6 +1452,61 @@ img {
   .blog_detalle {
     width: 100%;
   }
+
+  /*Acerca de*/
+  .about_head {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .about_head img {
+    width: 120%;
+
+  }
+
+  .about_head p {
+    text-align: justify;
+    width: 330px;
+  }
+  /*NUestro equipo*/
+  .imagen-con-texto {
+   flex-direction: column;
+  }
+
+  .blog_equipo img {
+    max-width: 100%;
+    padding: 30px;
+    
+  }
+
+  .texto {
+    width: 100%;
+  }
+
+  /*Testimonios*/
+
+  .container_testimonios {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prueba-flex {
+    padding: 20px;
+  }
+
+  /*Contacto*/
+  .contacto-datos {
+    flex-direction: column;
+  }
+
+  .contacto_uno {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
 
 }
 
