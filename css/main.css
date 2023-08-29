@@ -1016,11 +1016,135 @@ img {
 .contacto {
   background-image: url("../img/img-contacto/img-1.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 40vh;
+  
 }
+
+.contacto-datos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-image: url("../img/fondo-textura-contac/v748-toon-103.jpg")
+}
+
+.contacto_uno {
+  width: 40%;
+}
+
+.contacto_uno span {
+  font-size: 26px;
+}
+
+.contacto_uno h2 {
+  font-size: 26px;
+  line-height:35px;
+  padding: 20px 0;
+}
+
+.contacto_uno h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.contacto_uno li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+.contacto_uno li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+.contacto_uno li p {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+/*INCIO FORMULARIO DE REGISTRO Y LOGIN*/
+
+.container-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  border-radius: 15px;
+  box-shadow: 5px 14px 2px rgb(0, 0, 0, 0.10),
+  0 10px 10px rgb(0, 0, 0, 0.15);
+  
+}
+
+.container-form input{
+  
+  width: 90%;
+  height: 27px;
+  margin: .5rem;
+  padding: 15px 6px;
+  margin-bottom: 5px;
+  border: 1px solid #545353;
+  border-radius: 5px;
+  outline: none;
+}
+
+.acuerdo {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.text-form {
+  position: relative;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.text-form::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #2f2e2e;
+  width: 130px;
+  left: 0;
+  bottom: 0;
+}
+
+.regis-button {
+  border-radius: 20px;
+  border: 1px solid #1417c3;
+  background-color: #0f0aa0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+.regis-button:active {
+  transform: scale(0.95);
+}
+.regis-button:focus {
+  outline: none;
+}
+
+.link {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+
+
 
 
 
