@@ -1125,6 +1125,7 @@ img {
   color: #fff;
   font-size: 12px;
   font-weight: bold;
+  border: none;
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1143,12 +1144,153 @@ img {
   font-weight: bold;
 }
 
-
-
-
-
-
 /******FIN CONTACTO*****************/
+
+/******INICIO CARRITO DE COMPRA****/
+
+.img-compra {
+  background-image: url("../img/img-carrito/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+.carrito {
+  overflow: auto;
+  padding: 30px;
+}
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+  
+}
+
+.carrito img {
+  width: 70px;
+}
+
+.carrito td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+
+.carrito td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+
+.carrito td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+
+.carrito td:nth-child(4), 
+.carrito td:nth-child(5),
+.carrito td:nth-child(6){
+  width: 150px;
+  text-align: center;
+}
+
+.carrito td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+.carrito thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+.carrito table thead td {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+.carrito table tbody tr td {
+  padding-top: 15px;
+}
+
+/*****Total, Subtotal, Aplica cupon*****/
+
+.carrito-agregar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.cupon h3 {
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+
+.cupon input {
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-left: 15px;
+  border: 1px solid #e2e9e1;
+}
+
+.subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #e2e9e1;
+  padding: 30px;
+}
+
+.carrito table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-lineas td {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #e2e9e1;
+}
+
+/*Boton finaliza compra*/
+
+.regis-button-compra {
+  border-radius: 20px;
+  border: 1px solid #1417c3;
+  background-color: #0f0aa0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 18px 80px;
+  margin-left: 5px;
+  position: relative;
+  top: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.regis-button-compra:hover {
+  background-color: #f30e0e;
+  border: none;
+}
+.regis-button-compra:active {
+  transform: scale(0.95);
+}
+.regis-button-compra:focus {
+  outline: none;
+}
+
+/*****FINALIZA CARRITO DE COMPRA**/
 
 
 /*Comenzamos con las Media Query****/
@@ -1308,7 +1450,7 @@ img {
   }
 
   .about_head img {
-    width: 110%;
+    width: 100%;
   }
   .container-blog {
     display: block;   
@@ -1506,6 +1648,30 @@ img {
     width: 100%;
     margin-bottom: 30px;
   }
+
+  /*Carrito*/
+
+  .carrito-agregar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .cupon {
+    width: 100%;
+    text-align: center;
+  
+  }
+
+  .regis-button {
+    padding: 10px;
+  }
+
+  .subtotal {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
   
 
 }
