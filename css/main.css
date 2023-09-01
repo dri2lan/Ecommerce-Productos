@@ -118,11 +118,20 @@ body {
   z-index: 99;
   
 }
-marquee{
+marquee {
   font-size: 14px;
   font-weight: 600;
   color: #fff;
   text-align: center;
+  animation: 10s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .llamas {
@@ -1469,6 +1478,9 @@ img {
   }
   #header {
     padding: 10px 30px;
+  }
+  .redes_flo {
+    display: none;
   }
   #hero {
     padding: 0 20px;
