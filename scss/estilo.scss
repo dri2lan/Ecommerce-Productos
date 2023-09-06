@@ -176,42 +176,7 @@ body {
 #close {
     display: none;
 }
-/* Home Pagina*/
-#hero {
-   background-image: url("../img/img-portada/img-2.png");
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 20px;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    transition: box-shadow .1s, transform;
-    
-}
 
-#hero h4 {
-    padding-bottom: 15px;
-}
-
-#hero h1 {
-    color: $color-primario;
-}
-/*
-#hero button {
-    background-image: url("../img/btn-nav.png");
-    background-color: transparent;
-    color: #088178;
-    border: 0;
-    padding: 23px 80px 18px 60px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 800;
-    font-size: 14px;
-}
-*/
 #seccion__tres {
     display: flex;
     align-items: center;

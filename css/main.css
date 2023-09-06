@@ -251,6 +251,7 @@ marquee {
 #container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 .grid-images {
@@ -272,7 +273,9 @@ marquee {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  
 }
+
 
 .imagen-producto {
   position: relative;
@@ -304,6 +307,7 @@ marquee {
 /*Productos 1 en Promoción*/
 #productos__uno {
   text-align: center;
+  overflow: hidden;
 }
 /*etiqueta consultar como aplicar solo a unos
 .pro:before {
@@ -753,6 +757,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 footer .col {
@@ -1482,6 +1487,10 @@ img {
   .redes_flo {
     display: none;
   }
+
+  /*Grid Imagenes*/
+
+
   #hero {
     padding: 0 20px;
   }
@@ -1552,6 +1561,7 @@ img {
   }
   footer .col {
     position: relative;
+    
   }
   footer .row {
     position: relative;
@@ -1584,7 +1594,7 @@ img {
 
   #detalle__produc .detalle_uno {
     width: 100%;
-    margin-right: 0px;
+    
   }
 
   #detalle__produc .detalle_pro_text {
